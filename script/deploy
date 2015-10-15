@@ -1,0 +1,7 @@
+#!/bin/sh
+ 
+ssh root@192.168.13.35 <<EOF
+  cd /var/www/html/jenkins/project1
+  git pull
+  exit
+EOF
